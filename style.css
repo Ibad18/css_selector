@@ -1,0 +1,22 @@
+/* Universal Selector */
+* {
+    color: green
+}
+/* Type Selector */
+h1, h2 {
+    color: blueviolet;
+}
+/* Class Selector */
+.sub-head{
+    background-color: yellow;
+}
+/* Id Selector */
+#lal {
+    color: red;
+}
+/* Child Selector */
+li>span {
+    font-weight: bold;
+    font-size: 30px;
+    color: brown;
+}
