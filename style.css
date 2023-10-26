@@ -20,3 +20,16 @@ li>span {
     font-size: 30px;
     color: brown;
 }
+/* Decendant Selector */
+ul li {
+    font-style: italic;
+}
+/* Adjacent Sibling Selector */
+
+ul+h2 {
+    color: blue;
+}
+/* General Sibling Selector */
+h2~p{
+    color: darkred;
+}
